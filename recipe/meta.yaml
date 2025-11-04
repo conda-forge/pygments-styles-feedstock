@@ -1,5 +1,5 @@
 {% set name = "pygments-styles" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygments_styles-{{ version }}.tar.gz
-  sha256: 49727d051518ea46cc2d78c329c6985311bf27e1826f524c229a40b32cf00cff
+  sha256: 67746b8fc6ff72c1179ca4d9a8bc89c7f54c196c2ff9d087f07392cd6fde3ecf
 
 build:
   noarch: python
